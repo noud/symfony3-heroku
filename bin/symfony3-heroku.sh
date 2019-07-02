@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
+#_project_name=symfony3-heroku
 sudo apt-get install php
 sudo apt-get install composer
 
@@ -22,9 +23,12 @@ git push -u origin master
 # Heroku
 heroku create
 heroku config:set SYMFONY_ENV=prod
+heroku config:set DATABASE_URL=mysql://root:root@mysql:3306/symfony3-heroku
 git push heroku master
-heroku open	# browser
+heroku open
 # Monolog
 heroku logs --tail
+# Doctrine DBAL
 #doctrine.dbal.url: "%env(DATABASE_URL)%"
+# Heroku Router
 #web/app.php
