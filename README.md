@@ -66,7 +66,10 @@ released under the MIT or BSD license.
 What's added?
 --------------
 
-Code and configuration is added to work in Heroku.
+Code and configuration is added to work in [Heroku](https://www.heroku.com) Cloud Application Platform.
+
+The App has just one end-point
+* [Lucky::number()](https://floating-harbor-96482.herokuapp.com/lucky/number)
 
 Enjoy!
 
