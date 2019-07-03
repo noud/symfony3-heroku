@@ -63,6 +63,11 @@ It comes pre-configured with the following bundles:
 All libraries and bundles included in the Symfony Standard Edition are
 released under the MIT or BSD license.
 
+What's added?
+--------------
+
+Code and configuration is added to work in Heroku.
+
 Enjoy!
 
 [1]:  https://symfony.com/doc/3.4/setup.html
